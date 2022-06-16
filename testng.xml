@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test thread-count="9" name="Test">
+    <classes>
+       <class name="EPLCModule.EPLCRegisterLC"/>
+      <class name="EPLCModule.AdviceLC"/>
+        <!-- <class name="EPLCModule.RegisterAmendment"/> -->
+      <class name="EPLCModule.EPLCSendDocuments"/>
+      <class name="EPLCModule.RegisterDocumentsAdvisedbyus"/>
+      <class name="EPLCModule.EPLCCheckDocument"/>
+    <class name="EPLCModule.EPLCPayAccept"/>
+    <class name="EPLCModule.EPLCPaymentatMaturity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite1 -->
